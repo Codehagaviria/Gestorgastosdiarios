@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: Noto Sans;
+    background-color: rgb(249, 243, 241);
+    height: 100%;
+}
+.frase{
+    font-size: 1.5rem;
+    font-family:cursive;
+    padding: 0 50px 50px 50px;
+}
+.container{
+    background-color: whitesmoke;
+    padding: 15px 100px;
+    border-radius: 1.5px;
+}
+.footer-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.ms-2 {
+    margin-left: 0.5rem;
+}
+
+.text-pequeño {
+    font-size: 0.55rem; 
+}
+.container-fluid{
+    background-color: rgb(241, 186, 220);
+}
+
+.navbar{
+    background-color:  rgb(241, 186, 220);
+}
+.btn{
+    width: 160px;
+    height: 50px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(118, 166, 230);
+    
+}
+@media (max-width: 768px) {
+    .flex-md-row {
+        flex-direction: column !important;
+    }
+}
+@media (max-width: 576px) {
+    .footer-icon {
+        width: 25px;
+        height: 25px;
+    }
+}
